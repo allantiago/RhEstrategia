@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9E6FA24-CE8D-4959-82A4-9DF4149D0F8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{3F6A59A6-9DEF-415B-A580-4FC05239C0C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1CD2AFCC-9C4B-45ED-A9A3-F4E6E2C3B6A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pessoa", "Pessoa", "{DDBAC979-5492-4C23-9010-9320354BDC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RE.Pessoas.API", "src\services\RE.Pessoas.API\RE.Pessoas.API.csproj", "{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2A689ABA-7937-4C08-AD5F-6ED404EE37C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RE.Core", "src\building blocks\RE.Core\RE.Core.csproj", "{F0B276F8-CE3D-483D-8BB0-174E075CE124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B276F8-CE3D-483D-8BB0-174E075CE124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B276F8-CE3D-483D-8BB0-174E075CE124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B276F8-CE3D-483D-8BB0-174E075CE124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B276F8-CE3D-483D-8BB0-174E075CE124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F6A59A6-9DEF-415B-A580-4FC05239C0C1} = {B9E6FA24-CE8D-4959-82A4-9DF4149D0F8D}
+		{1CD2AFCC-9C4B-45ED-A9A3-F4E6E2C3B6A1} = {B9E6FA24-CE8D-4959-82A4-9DF4149D0F8D}
+		{DDBAC979-5492-4C23-9010-9320354BDC62} = {1CD2AFCC-9C4B-45ED-A9A3-F4E6E2C3B6A1}
+		{1032EEDF-8976-41FD-B5F0-CCC7FA37DEA1} = {DDBAC979-5492-4C23-9010-9320354BDC62}
+		{2A689ABA-7937-4C08-AD5F-6ED404EE37C5} = {3F6A59A6-9DEF-415B-A580-4FC05239C0C1}
+		{F0B276F8-CE3D-483D-8BB0-174E075CE124} = {2A689ABA-7937-4C08-AD5F-6ED404EE37C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F2DCC2-3A10-4B98-B2E0-B3021E4A9C3B}
+	EndGlobalSection
+EndGlobal
